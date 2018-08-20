@@ -1,0 +1,5 @@
+var cooking = ["Steamed", "fried", "raw", "stir fry", "smoked", "boiled"]
+var type = ["pasta", "seafood", "borger", "curry", "hotdog", "human", "rice", "pork", "bread", "baked potato"]
+var choose = (Math.floor(Math.random() *cooking.length));
+var choose1 = (Math.floor(Math.random() *type.length));
+window.alert(cooking[choose] + " "+ type[choose1]);
